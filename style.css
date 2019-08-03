@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: darkseagreen;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    box-shadow: 5px 4px 5px #000000;
+}
+table{
+    width: 100%;
+}
+table td input{
+    width : 100%;
+    background-color : #77DF79;
+    padding : 5px;
+    font-size : 22px;
+    cursor : pointer;
+    border : 2px solid rgb(132, 212, 133);
+}
+body{
+    background-image: url(once.jpg)
+}
+form input{
+    font-size: 22px;
+    margin: 5px;
+    padding: 5px;
+    height: 66px;
+    text-align: right;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+}
+.main:hover{
+    background-color: #ade6a4
+}
+table td input:hover{
+    background-color: cadetblue;
+    border: 2px solid #C1E7E3
+}
